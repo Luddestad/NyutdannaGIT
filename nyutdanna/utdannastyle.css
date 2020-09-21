@@ -1,0 +1,27 @@
+.parent {
+	display:grid;
+	grid-template-columns: auto 1fr auto / auto 1fr auto;
+}
+
+.topnav {
+	padding: 2rem;
+	grid-column: 1 / 4;
+	
+	
+	background-color:green;
+}
+
+.sidebar {
+	grid-column: 1 / 2;
+	background-color:red;
+}
+
+.content {
+	grid-column:2 / 3;
+	background-color:blue;
+}
+.footer {
+	grid-column: 1 / 4;
+	
+	background-color:yellow;
+}
