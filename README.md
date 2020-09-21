@@ -1,0 +1,2 @@
+# NyutdannaGIT
+GIT for Hjemmeside
