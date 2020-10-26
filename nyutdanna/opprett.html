@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+<title>Opprett annonse</title>
+<link rel="stylesheet" href="utdannastyle.css">
+<script src="opprett.js"></script>
+</head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<body>
+	<div class="parent">
+	
+		<div class = "topnav">
+			<a id="home" href="nyutdanna.html"><img src="Logo.png" alt="Logo"style="width:200px;height:100px;"></a>
+			
+			<ul>
+				<li><a href="login.html">Logg inn<img src="Profil.png" alt="Profil"style="width:30px;height:30px;"></a></li>
+				<li><a href="Mineannonser.html">Mine annonser<img src="Annonse.png" alt="Annonse"style="width 30px;height:30px;"></a></li>
+				<li><a href="meldinger.html">Meldinger<img src="Meldinger.png" alt="Meldinger"style="width:35px;height:30px;"></a></li>
+
+			</ul>
+		
+		</div>
+	
+		<div class = "opprett">
+			<form>
+			<h1> Opprett Annonse </h1>
+				<section>
+					<label> Annonsetittel</label>
+					<input  autofocus>
+				</section>
+				
+				<section>
+					<label> Annonsetekst</label>
+					<input>
+				</section>
+				
+			</form>
+			<form name="form1" id="form1" action="/action_page.php">
+			<h3> Adresse </h3>
+			Fylke: <select name="subject" id="subject">
+			<option value="" selected="selected">Velg Fylke</option>
+						</select>
+						<br><br>
+				<section>
+					<label> Gateadresse</label>
+					<input>
+				</section>
+				<section>
+					<label> Postnummer</label>
+					<input>
+				</section>
+			Topics: <select name="topic" id="topic">
+			<option value="" selected="selected">Please select subject first</option>
+						</select>
+						<br><br>
+			Chapters: <select name="chapter" id="chapter">
+			<option value="" selected="selected">Please select topic first</option>
+						</select>
+						<br><br>
+				<button> Opprett Annonse</button>
+			</form>
+			
+		</div>
+	
+	
+		<div class= "footer">
+	
+	
+		</div>
+	</div>
+</body>
+</html>
